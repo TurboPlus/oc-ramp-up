@@ -13,6 +13,8 @@
 		9157C20B2A71677500087CDE /* HMDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C20A2A71677500087CDE /* HMDog.m */; };
 		9157C20E2A716A2200087CDE /* HMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C20D2A716A2200087CDE /* HMPerson.m */; };
 		9157C2112A7178B600087CDE /* HMQuanQuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C2102A7178B600087CDE /* HMQuanQuan.m */; };
+		9157C21A2A717C8400087CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C2192A717C8400087CDE /* main.m */; };
+		9157C21F2A717E2000087CDE /* HMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C21E2A717E2000087CDE /* HMPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9157C2012A7165BD00087CDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9157C2152A717C8400087CDE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -49,6 +60,11 @@
 		9157C20F2A716A2C00087CDE /* HMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPerson.h; sourceTree = "<group>"; };
 		9157C2102A7178B600087CDE /* HMQuanQuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMQuanQuan.m; sourceTree = "<group>"; };
 		9157C2122A7178C800087CDE /* HMQuanQuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMQuanQuan.h; sourceTree = "<group>"; };
+		9157C2172A717C8400087CDE /* 猜拳游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "猜拳游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9157C2192A717C8400087CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9157C21E2A717E2000087CDE /* HMPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPlayer.m; sourceTree = "<group>"; };
+		9157C2202A717E2F00087CDE /* HMPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPlayer.h; sourceTree = "<group>"; };
+		9157C2212A717E9E00087CDE /* HMFistType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFistType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9157C2142A717C8400087CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +97,7 @@
 			children = (
 				913A140B2A6ECA1F0040162D /* Fraction */,
 				9157C2042A7165BD00087CDE /* 对象作为类的属性 */,
+				9157C2182A717C8400087CDE /* 猜拳游戏 */,
 				913A140A2A6ECA1F0040162D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +107,7 @@
 			children = (
 				913A14092A6ECA1F0040162D /*  iOS-ramp-up */,
 				9157C2032A7165BD00087CDE /* 对象作为类的属性 */,
+				9157C2172A717C8400087CDE /* 猜拳游戏 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +134,17 @@
 				9157C2122A7178C800087CDE /* HMQuanQuan.h */,
 			);
 			path = "对象作为类的属性";
+			sourceTree = "<group>";
+		};
+		9157C2182A717C8400087CDE /* 猜拳游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				9157C2192A717C8400087CDE /* main.m */,
+				9157C21E2A717E2000087CDE /* HMPlayer.m */,
+				9157C2202A717E2F00087CDE /* HMPlayer.h */,
+				9157C2212A717E9E00087CDE /* HMFistType.h */,
+			);
+			path = "猜拳游戏";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +184,23 @@
 			productReference = 9157C2032A7165BD00087CDE /* 对象作为类的属性 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9157C2162A717C8400087CDE /* 猜拳游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9157C21B2A717C8400087CDE /* Build configuration list for PBXNativeTarget "猜拳游戏" */;
+			buildPhases = (
+				9157C2132A717C8400087CDE /* Sources */,
+				9157C2142A717C8400087CDE /* Frameworks */,
+				9157C2152A717C8400087CDE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "猜拳游戏";
+			productName = "猜拳游戏";
+			productReference = 9157C2172A717C8400087CDE /* 猜拳游戏 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +214,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					9157C2022A7165BD00087CDE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9157C2162A717C8400087CDE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -180,6 +236,7 @@
 			targets = (
 				913A14082A6ECA1F0040162D /*  iOS-ramp-up */,
 				9157C2022A7165BD00087CDE /* 对象作为类的属性 */,
+				9157C2162A717C8400087CDE /* 猜拳游戏 */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +259,15 @@
 				9157C20E2A716A2200087CDE /* HMPerson.m in Sources */,
 				9157C2112A7178B600087CDE /* HMQuanQuan.m in Sources */,
 				9157C20B2A71677500087CDE /* HMDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9157C2132A717C8400087CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9157C21A2A717C8400087CDE /* main.m in Sources */,
+				9157C21F2A717E2000087CDE /* HMPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +415,22 @@
 			};
 			name = Release;
 		};
+		9157C21C2A717C8400087CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9157C21D2A717C8400087CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,6 +457,15 @@
 			buildConfigurations = (
 				9157C2072A7165BD00087CDE /* Debug */,
 				9157C2082A7165BD00087CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9157C21B2A717C8400087CDE /* Build configuration list for PBXNativeTarget "猜拳游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9157C21C2A717C8400087CDE /* Debug */,
+				9157C21D2A717C8400087CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
