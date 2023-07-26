@@ -48,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		913A14092A6ECA1F0040162D /*  iOS-ramp-up */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = " iOS-ramp-up"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913A14092A6ECA1F0040162D /* Fraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fraction; sourceTree = BUILT_PRODUCTS_DIR; };
 		913A140C2A6ECA1F0040162D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		913A14132A6ED34F0040162D /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		913A14142A6ED35F0040162D /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		913A140A2A6ECA1F0040162D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				913A14092A6ECA1F0040162D /*  iOS-ramp-up */,
+				913A14092A6ECA1F0040162D /* Fraction */,
 				9157C2032A7165BD00087CDE /* 对象作为类的属性 */,
 				9157C2172A717C8400087CDE /* 猜拳游戏 */,
 			);
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		913A14082A6ECA1F0040162D /*  iOS-ramp-up */ = {
+		913A14082A6ECA1F0040162D /* Fraction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 913A14102A6ECA1F0040162D /* Build configuration list for PBXNativeTarget " iOS-ramp-up" */;
+			buildConfigurationList = 913A14102A6ECA1F0040162D /* Build configuration list for PBXNativeTarget "Fraction" */;
 			buildPhases = (
 				913A14052A6ECA1F0040162D /* Sources */,
 				913A14062A6ECA1F0040162D /* Frameworks */,
@@ -162,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = " iOS-ramp-up";
+			name = Fraction;
 			productName = Fraction;
-			productReference = 913A14092A6ECA1F0040162D /*  iOS-ramp-up */;
+			productReference = 913A14092A6ECA1F0040162D /* Fraction */;
 			productType = "com.apple.product-type.tool";
 		};
 		9157C2022A7165BD00087CDE /* 对象作为类的属性 */ = {
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 913A14042A6ECA1F0040162D /* Build configuration list for PBXProject " iOS-ramp-up" */;
+			buildConfigurationList = 913A14042A6ECA1F0040162D /* Build configuration list for PBXProject "oc-ramp-up" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,7 +234,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				913A14082A6ECA1F0040162D /*  iOS-ramp-up */,
+				913A14082A6ECA1F0040162D /* Fraction */,
 				9157C2022A7165BD00087CDE /* 对象作为类的属性 */,
 				9157C2162A717C8400087CDE /* 猜拳游戏 */,
 			);
@@ -434,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		913A14042A6ECA1F0040162D /* Build configuration list for PBXProject " iOS-ramp-up" */ = {
+		913A14042A6ECA1F0040162D /* Build configuration list for PBXProject "oc-ramp-up" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913A140E2A6ECA1F0040162D /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		913A14102A6ECA1F0040162D /* Build configuration list for PBXNativeTarget " iOS-ramp-up" */ = {
+		913A14102A6ECA1F0040162D /* Build configuration list for PBXNativeTarget "Fraction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913A14112A6ECA1F0040162D /* Debug */,

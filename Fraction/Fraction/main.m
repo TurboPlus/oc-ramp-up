@@ -10,15 +10,16 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Fraction *myFraction;
-        myFraction = [Fraction alloc];
-        myFraction = [myFraction init];
+        Fraction *myFraction1;
+        myFraction1 = [Fraction alloc];
+        myFraction1 = [myFraction1 init];
         
-        myFraction.numerator = 1;
-        myFraction.denominator = 3;
+        myFraction1.numerator = 1;
+        myFraction1.denominator = 3;
         
         NSLog(@"The value of myFraction is: ");
-        [myFraction print];
+        [myFraction1 print];
+        NSLog(@"= %f", [myFraction1 convertToNum]);
     }
     return 0;
 }
