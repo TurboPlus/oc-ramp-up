@@ -15,6 +15,8 @@
 		9157C2112A7178B600087CDE /* HMQuanQuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C2102A7178B600087CDE /* HMQuanQuan.m */; };
 		9157C21A2A717C8400087CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C2192A717C8400087CDE /* main.m */; };
 		9157C21F2A717E2000087CDE /* HMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C21E2A717E2000087CDE /* HMPlayer.m */; };
+		91E9F9132A72AF39004C0F19 /* HMRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E9F9122A72AF39004C0F19 /* HMRobot.m */; };
+		91E9F9162A72B2BD004C0F19 /* HMJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E9F9152A72B2BD004C0F19 /* HMJudge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +67,10 @@
 		9157C21E2A717E2000087CDE /* HMPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPlayer.m; sourceTree = "<group>"; };
 		9157C2202A717E2F00087CDE /* HMPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPlayer.h; sourceTree = "<group>"; };
 		9157C2212A717E9E00087CDE /* HMFistType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFistType.h; sourceTree = "<group>"; };
+		91E9F9122A72AF39004C0F19 /* HMRobot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRobot.m; sourceTree = "<group>"; };
+		91E9F9142A72AF45004C0F19 /* HMRobot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRobot.h; sourceTree = "<group>"; };
+		91E9F9152A72B2BD004C0F19 /* HMJudge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMJudge.m; sourceTree = "<group>"; };
+		91E9F9172A72B2CB004C0F19 /* HMJudge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMJudge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,10 @@
 				9157C21E2A717E2000087CDE /* HMPlayer.m */,
 				9157C2202A717E2F00087CDE /* HMPlayer.h */,
 				9157C2212A717E9E00087CDE /* HMFistType.h */,
+				91E9F9122A72AF39004C0F19 /* HMRobot.m */,
+				91E9F9142A72AF45004C0F19 /* HMRobot.h */,
+				91E9F9152A72B2BD004C0F19 /* HMJudge.m */,
+				91E9F9172A72B2CB004C0F19 /* HMJudge.h */,
 			);
 			path = "猜拳游戏";
 			sourceTree = "<group>";
@@ -266,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E9F9162A72B2BD004C0F19 /* HMJudge.m in Sources */,
+				91E9F9132A72AF39004C0F19 /* HMRobot.m in Sources */,
 				9157C21A2A717C8400087CDE /* main.m in Sources */,
 				9157C21F2A717E2000087CDE /* HMPlayer.m in Sources */,
 			);

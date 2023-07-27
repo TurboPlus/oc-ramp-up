@@ -24,12 +24,22 @@
 
 #import <Foundation/Foundation.h>
 #import "HMPlayer.h"
+#import "HMRobot.h"
+#import "HMJudge.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         HMPlayer *xiaoming = [HMPlayer new];
         xiaoming->_name = @"xiaoming";
         [xiaoming showFist];
+        
+        HMRobot *aGou = [HMRobot new];
+        aGou->_name = @"aGou";
+        [aGou showFist];
+        
+        HMJudge *heiShao = [HMJudge new];
+        heiShao->_name = @"heiShao";
+        [heiShao caiJueWithPlayer:xiaoming andRobot:aGou];
     }
     return 0;
 }
